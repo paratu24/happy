@@ -21,10 +21,11 @@
         alert("Las herramientas de desarrollo están desactivadas.");
       }
       if (
-        (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "U")) ||
+        (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) || 
         (event.ctrlKey && event.key === "U")
       ) {
         event.preventDefault();
+        event.stopPropagation();
         alert("Esta acción está deshabilitada.");
       }
     });
