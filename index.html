@@ -9,6 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="style/style.css">
+  <scrip>
+    document.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+      alert("El clic derecho está deshabilitado.");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "F12") {
+        event.preventDefault();
+        alert("Las herramientas de desarrollo están desactivadas.");
+      }
+      if (
+        (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+        (event.ctrlKey && event.key === "U")
+      ) {
+        event.preventDefault();
+        alert("Esta acción está deshabilitada.");
+      }
+    });
+  </scrip>
 </head>
 
 <body>
