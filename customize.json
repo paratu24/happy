@@ -1,0 +1,23 @@
+{
+  "greeting": "Hey",
+  "name": "Arichita",
+  "greetingText": "¡Me gusta mucho como suena por cierto!",
+  "wishText": ";)",
+  "imagePath": "img/ari.png",
+  "text1": "Es tu cumpleaños!!! :D",
+  "textInChatBox": "¡¡Feliz cumpleaños!! ¡Sí! Muchos, muchos, felices, blah...",
+  "sendButtonLabel": "Enviar",
+  "text2": "Eso es lo que iba a hacer.",
+  "text3": "Pero luego me detuve.",
+  "text4": "Me di cuenta que quería hacer algo.",
+  "text4Adjective": "especial",
+  "text5Entry": "Porque,",
+  "text5Content": "Eres especial",
+  "smiley": ":)",
+  "bigTextPart1": "ENTO",
+  "bigTextPart2": "NCES",
+  "wishHeading": "¡Feliz cumpleaños!",
+  "outroText": "Bien, ahora vuelve y cuéntame si te gustó.",
+  "replayText": "O haz clic si quieres verlo nuevamente.",
+  "outroSmiley": ":)"
+}
